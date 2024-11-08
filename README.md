@@ -1,6 +1,8 @@
 # PCA 
-Typically in unsupervised learning, a minor percentage of datapoints are assumed as outliers. Principal Component Analysis (PCA) uses a cluster method to detect an anomaly, assumes
-the inliers (normal datapoints) belong to large and dense clusters and the outliers/anomalies belong to either smaller and sparse clusters or none. The algorithm PCA determines what constitutes
+Typically in unsupervised learning, a minor percentage of datapoints are assumed as outliers. 
+
+Principal Component Analysis (PCA) uses a cluster method to detect an anomaly, assumes
+the inliers (normal datapoints) belong to large and dense clusters and the outliers/anomalies belong to either smaller and sparse clusters or none, in short PCA determines what constitutes
 a normal class. 
 
 
