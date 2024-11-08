@@ -9,7 +9,7 @@ Considering time-series data (refer to csv file and notebook) and assuming 1% ou
 <img width="202" alt="mm" src="https://github.com/user-attachments/assets/a6f9baae-dfc6-4eef-a6e6-5f1b11da95a0">
 
 
-Learn more about PCA from **Chapter 3** of my book "A handbook of mathematical models with python". 
+Learn more about PCA from **Chapter 3** of **my book**: 
 
 <img width="173" alt="mm" src="https://github.com/user-attachments/assets/a41c6d0d-de7b-4767-a4a0-488593c606f6">
 
