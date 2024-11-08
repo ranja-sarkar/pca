@@ -19,8 +19,9 @@ Among other anomaly detection methods in an unsupervised setting, there is Isola
 
 https://www.kaggle.com/code/ranja7/timeseries-anomaly-detection-isolation-forest
 
-In general, evaluating an unsupervised learning method is hard. Yet, a few known metrics have been discussed here: 
-https://ranjas.substack.com/p/exploring-metrics-in-unsupervised
+In general, evaluating an unsupervised learning method is hard. 
+
+Yet, a few known metrics have been discussed here: https://ranjas.substack.com/p/exploring-metrics-in-unsupervised
 
 Apart from PCA, in matrix factorization problems we come across methods like Independent Component Analysis (ICA), factor analysis. An overview of all of them can be found at scikit-learn's page: 
 
