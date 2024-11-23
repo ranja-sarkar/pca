@@ -34,4 +34,7 @@ Among other **anomaly detection methods in an unsupervised setting**, there is *
 Another matrix decomposition linear algebraic method is SVD (singular value decomposition):
 https://www.ams.org/publicoutreach/feature-column/fcarc-svd
 
+An excellent blog on SVD: https://gregorygundersen.com/blog/2018/12/10/svd/
+
+
 
