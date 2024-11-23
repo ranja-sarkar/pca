@@ -28,6 +28,6 @@ Yet, a few known metrics have been discussed here: https://ranjas.substack.com/p
 
 https://scikit-learn.org/stable/modules/decomposition.html
 
-Among other anomaly detection methods in an unsupervised setting, there is Isolation Forest. Find a demo of this algorithm applied on time-series data here:
+Among other anomaly detection methods in an unsupervised setting, there is Isolation Forest.
 
-https://www.kaggle.com/code/ranja7/timeseries-anomaly-detection-isolation-forest
+<img width="328" alt="IF" src="https://github.com/user-attachments/assets/7db75a52-9667-40e6-a673-c844df5d38eb">
