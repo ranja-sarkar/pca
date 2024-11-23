@@ -28,6 +28,10 @@ Yet, a few known metrics have been discussed here: https://ranjas.substack.com/p
 
 https://scikit-learn.org/stable/modules/decomposition.html
 
-Among other anomaly detection methods in an unsupervised setting, there is Isolation Forest.
+Among other **anomaly detection methods in an unsupervised setting**, there is **Isolation Forest**:
+<img width="316" alt="2" src="https://github.com/user-attachments/assets/fa7dfbe1-f99e-4dc6-985c-cbdc024d621a">
 
-<img width="328" alt="IF" src="https://github.com/user-attachments/assets/7db75a52-9667-40e6-a673-c844df5d38eb">
+Another matrix decomposition linear algebraic method is SVD (singular value decomposition):
+https://www.ams.org/publicoutreach/feature-column/fcarc-svd
+
+
