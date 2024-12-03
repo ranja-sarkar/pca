@@ -8,7 +8,7 @@ the inliers (normal datapoints) belong to large and dense clusters and the outli
 a normal class. 
 
 
-Considering time-series data (refer to csv file and notebook) and assuming 1% outliers in the dataset, here's the result of PCA (red points are anomalies).
+Considering time-series data (refer to csv and py files of this repo) and assuming 1% outliers in the dataset, here's the result of PCA (anomalies are marked in red).
  
 <img width="202" alt="mm" src="https://github.com/user-attachments/assets/a6f9baae-dfc6-4eef-a6e6-5f1b11da95a0">
 
