@@ -5,9 +5,9 @@ from sklearn import preprocessing
 from sklearn.decomposition import PCA
 from sklearn.cluster import KMeans
 import matplotlib.pyplot as plt
-
 from warnings import simplefilter
 simplefilter(action = 'ignore', category = FutureWarning)
+
 
 # Return Series of distances between points and distances from the closest centroid
 def getDistanceByPoint(data, model):
@@ -68,4 +68,5 @@ fig, ax = plt.subplots()
 a = df.loc[df['anomaly'] == 1, ['time_epoch', 'value']]
 ax.plot(df['time_epoch'], df['value'], color='blue')
 ax.scatter(a['time_epoch'],a['value'], color='red')
+plt.xlabel('time_epoch')
 plt.show()
