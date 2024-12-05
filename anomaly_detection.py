@@ -1,12 +1,9 @@
-#author: ranja.sarkar@gmail.com
 
 import pandas as pd
 import numpy as np
 from sklearn import preprocessing
 from sklearn.decomposition import PCA
 from sklearn.cluster import KMeans
-#from sklearn.ensemble import IsolationForest
-#from sklearn.svm import OneClassSVM
 import matplotlib.pyplot as plt
 
 from warnings import simplefilter
@@ -24,7 +21,7 @@ def getDistanceByPoint(data, model):
 df = pd.read_csv("ambient_temperature_system_failure.csv")
 #print(df.info())
 
-outliers_fraction = 0.01     #1% of data is assumed to have outlying points
+outliers_fraction = 0.01                         #1% of data is assumed to have outlying points
 
 # Change timestamp to datetime
 df['timestamp'] = pd.to_datetime(df['timestamp'])
@@ -38,17 +35,15 @@ df['value'] = (df['value'] - 32) * 5/9
 # Plot the original data
 df.plot(x = 'time_epoch', y = 'value')
 
-# standardize features
 data = df[['value', 'time_epoch']]
 min_max_scaler = preprocessing.StandardScaler()
 np_scaled = min_max_scaler.fit_transform(data)
 data = pd.DataFrame(np_scaled)
 
-# Reduce to 2 importants features, default 'auto' is too large
+# Reduce to 2 important extracted features, default 'auto' is too large
 pca = PCA(n_components = 2)
 data = pca.fit_transform(data)
 
-# Standardize 2 new features
 min_max_scaler = preprocessing.StandardScaler()
 np_scaled = min_max_scaler.fit_transform(data)
 data = pd.DataFrame(np_scaled)
@@ -63,7 +58,7 @@ df['principal_feature1'] = data[0]
 df['principal_feature2'] = data[1]
 df['cluster'].value_counts()
 
-# bigger distances are considered as anomalies
+# larger distances are considered as anomalies
 distance = getDistanceByPoint(data, kmeans[14])
 number_of_outliers = int(outliers_fraction*len(distance))
 threshold = distance.nlargest(number_of_outliers).min()
