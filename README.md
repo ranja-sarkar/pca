@@ -4,8 +4,8 @@ To understand eigenvector and eigenvalue visually, please refer: https://setosa.
 
 
 Typically in unsupervised learning, a minor percentage of datapoints are assumed as outliers. **PCA** uses a cluster method to detect an anomaly, assumes
-the inliers (normal datapoints) belong to large and dense clusters and the outliers/anomalies belong to either smaller and sparse clusters or none, in short PCA determines what constitutes
-a normal class. 
+the inliers (normal datapoints) belong to large and dense clusters and the outliers/anomalies belong to either smaller and sparse clusters or none, in short **PCA determines what constitutes
+a normal class**. 
 
 
 Considering time-series data (refer to csv and py files of this repo) and assuming 1% outliers in the dataset, here's the result of PCA (anomalies are marked in red).
