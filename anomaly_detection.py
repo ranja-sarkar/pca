@@ -1,4 +1,3 @@
-
 import pandas as pd
 import numpy as np
 from sklearn import preprocessing
@@ -20,8 +19,6 @@ def getDistanceByPoint(data, model):
 
 df = pd.read_csv("ambient_temperature_system_failure.csv")
 #print(df.info())
-
-outliers_fraction = 0.01                         #1% of data is assumed to have outlying points
 
 # Change timestamp to datetime
 df['timestamp'] = pd.to_datetime(df['timestamp'])
@@ -59,6 +56,7 @@ df['principal_feature2'] = data[1]
 df['cluster'].value_counts()
 
 # larger distances are considered as anomalies
+outliers_fraction = 0.01                                   #1% of data is assumed to have outlying points
 distance = getDistanceByPoint(data, kmeans[14])
 number_of_outliers = int(outliers_fraction*len(distance))
 threshold = distance.nlargest(number_of_outliers).min()
