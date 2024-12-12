@@ -7,11 +7,14 @@ Typically in unsupervised learning, a minor percentage of datapoints are assumed
 the inliers (normal datapoints) belong to large and dense clusters and the outliers/anomalies belong to either smaller and sparse clusters or none, in short **PCA determines what constitutes
 a normal class**. 
 
-
 Considering time-series data (refer to csv and py files of this repo) and assuming 1% outliers in the dataset, here's the result of PCA (anomalies are marked in red).
  
 <img width="367" alt="11" src="https://github.com/user-attachments/assets/e8844b9f-9b38-4462-ad80-3813b32572e8" />
 <img width="360" alt="11" src="https://github.com/user-attachments/assets/58072a54-7c01-46ee-8f74-b639f3e67ef9">
+
+Considering the first two (extracted) principal features/components (PCs), the percentage of variance explained (PVE) for the dataset by them is as shown here:
+
+<img width="377" alt="22" src="https://github.com/user-attachments/assets/3e1495ee-f06c-4b67-9afe-d7a8144231c8" />
 
 
 Learn more about PCA from **Chapter 3** of **my book**: 
