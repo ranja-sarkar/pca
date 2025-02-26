@@ -2,6 +2,9 @@
 Principal Component Analysis (PCA) is based on the eigen-decomposition of a covariance matrix.
 To understand eigenvector and eigenvalue visually, please refer: https://setosa.io/ev/eigenvectors-and-eigenvalues/
 
+It's fun to note that PCA is the same thing as finding the principal moments of inertia (in Physics), only instead of a body having a mass, we have a body made of data points in PCA. 
+Instead of finding the eigenvalues and eigenvectors of the inertia tensor, we find them by decomposing the covariance matrix.
+
 PCA is unsupervised. It detects the directions in which data varies the most. Typically in unsupervised learning, a minor percentage of datapoints are assumed as outliers. **PCA** uses a cluster method to detect an anomaly, assumes
 the inliers (normal datapoints) belong to large and dense clusters and the outliers/anomalies belong to either smaller and sparse clusters or none, in short **PCA determines what constitutes
 a normal class**. 
