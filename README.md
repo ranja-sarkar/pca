@@ -2,7 +2,7 @@
 Principal Component Analysis (PCA) is based on the eigen-decomposition of a covariance matrix.
 To understand eigenvector and eigenvalue visually, please refer: https://setosa.io/ev/eigenvectors-and-eigenvalues/
 
-It's fun to note that PCA is the same thing as finding the principal moments of inertia (in Physics), only instead of a body having a mass, we have a body made of data points in PCA. 
+It's noteworthy that PCA is the same as finding the principal moments of inertia (in Physics); instead of a body having a mass, we have a body made of data points in PCA. 
 Instead of finding the eigenvalues and eigenvectors of the inertia tensor, we find them by decomposing the covariance matrix.
 
 PCA is unsupervised. It detects the directions in which data varies the most. Typically in unsupervised learning, a minor percentage of datapoints are assumed as outliers. **PCA** uses a cluster method to detect an anomaly, assumes
@@ -42,10 +42,7 @@ ICA is a technique used to separate mixed signals into their independent compone
 📌 In PCA, principal components are orthogonal, but in ICA, independent components are not orthogonal. 
 
 
-Among other **anomaly detection methods in an unsupervised setting**, there is **Isolation Forest**:
-<img width="316" alt="2" src="https://github.com/user-attachments/assets/fa7dfbe1-f99e-4dc6-985c-cbdc024d621a">
-
-Another matrix decomposition linear algebraic method is SVD (singular value decomposition):
+Another matrix decomposition (Linear Algebraic methods) is SVD or singular value decomposition:
 https://www.ams.org/publicoutreach/feature-column/fcarc-svd
 
 An excellent blog on SVD: https://gregorygundersen.com/blog/2018/12/10/svd/
