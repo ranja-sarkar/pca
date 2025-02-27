@@ -39,8 +39,6 @@ ICA is a technique used to separate mixed signals into their independent compone
 
 📌 PCA assumes data follows a Gaussian distribution, identifying orthogonal components, whereas ICA assumes a non-Gaussian distribution and does not constrain components to be orthogonal.
 
-📌 In PCA, principal components are orthogonal, but in ICA, independent components are not orthogonal. 
-
 
 Another matrix decomposition (Linear Algebraic methods) is SVD or singular value decomposition:
 https://www.ams.org/publicoutreach/feature-column/fcarc-svd
