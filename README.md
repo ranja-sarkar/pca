@@ -16,6 +16,8 @@ Considering time-series data (refer to csv and py files of this repo) and assumi
 <img width="367" alt="11" src="https://github.com/user-attachments/assets/e8844b9f-9b38-4462-ad80-3813b32572e8" />
 <img width="360" alt="11" src="https://github.com/user-attachments/assets/58072a54-7c01-46ee-8f74-b639f3e67ef9">
 
+# PCA in my book
+
 Considering the first two (extracted) principal features/components (PCs), the percentage of variance explained (PVE) for the dataset by them is as shown here:
 
 <img width="377" alt="22" src="https://github.com/user-attachments/assets/3e1495ee-f06c-4b67-9afe-d7a8144231c8" />
