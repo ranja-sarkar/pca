@@ -29,8 +29,7 @@ Buy at Amazon: https://a.co/d/2JY2rdj
 
 
 
-
-#Other matrix factorization methods
+# Other matrix-factorization methods
 
 **Apart from PCA, in matrix factorization problems we come across methods like Independent Component Analysis (ICA), and factor analysis**. An overview of them can be found at scikit-learn's page: 
 
