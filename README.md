@@ -5,9 +5,11 @@ To understand eigenvector and eigenvalue visually, please refer: https://setosa.
 It's noteworthy that PCA is the same as finding the principal moments of inertia (in Physics); instead of a body having a mass, we have a body made of data points in PCA. 
 Instead of finding the eigenvalues and eigenvectors of the inertia tensor, we find them by decomposing the covariance matrix.
 
-PCA is unsupervised. It detects the directions in which data varies the most. Typically in unsupervised learning, a minor percentage of datapoints are assumed as outliers. **PCA** uses a cluster method to detect an anomaly, assumes
-the inliers (normal datapoints) belong to large and dense clusters and the outliers/anomalies belong to either smaller and sparse clusters or none, in short **PCA determines what constitutes
-a normal class**. 
+PCA is unsupervised. It detects the directions in which data varies the most. 
+
+# Detecting anomaly by PCA
+
+ **PCA** uses a cluster method to detect an anomaly. Typically in unsupervised learning, a minor percentage of datapoints are assumed as outliers. So PCA assumes the inliers belong to large and dense clusters and the outliers belong to either smaller and sparse clusters or none, in short **PCA determines what constitutes a normal class**. 
 
 Considering time-series data (refer to csv and py files of this repo) and assuming 1% outliers in the dataset, here's the result of PCA (anomalies are marked in red).
  
@@ -27,7 +29,8 @@ Buy at Amazon: https://a.co/d/2JY2rdj
 
 
 
-**In general, evaluating an unsupervised learning method is hard.** Yet, a few known metrics have been discussed here: https://ranjas.substack.com/p/exploring-metrics-in-unsupervised
+
+#Other matrix factorization methods
 
 **Apart from PCA, in matrix factorization problems we come across methods like Independent Component Analysis (ICA), and factor analysis**. An overview of them can be found at scikit-learn's page: 
 
