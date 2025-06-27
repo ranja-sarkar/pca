@@ -18,7 +18,7 @@ Considering time-series data (refer to csv and py files of this repo) and assumi
 
 # PCA in my book
 
-Considering the first two (extracted) principal features/components (PCs), the percentage of variance explained (PVE) for the dataset by them is as shown here:
+Considering the first two (extracted) principal components (PCs) namely, 0 and 1, the percentage of variance explained (PVE) for the dataset by them is as shown here:
 
 <img width="377" alt="22" src="https://github.com/user-attachments/assets/3e1495ee-f06c-4b67-9afe-d7a8144231c8" />
 
