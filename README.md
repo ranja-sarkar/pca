@@ -11,9 +11,8 @@ PCA is unsupervised. It detects the directions in which data varies the most.
 
  **PCA** uses a cluster method to detect an anomaly. Typically in unsupervised learning, a minor percentage of datapoints are assumed as outliers. So PCA assumes the inliers belong to large and dense clusters and the outliers belong to either smaller and sparse clusters or none, in short **PCA determines what constitutes a normal class**. 
 
-Considering time-series data (refer to csv and py files of this repo) and assuming 1% outliers in the dataset, here's the result of PCA (anomalies are marked in red).
+Considering time-series data and assuming 1% outliers in the dataset, here's the result of PCA (anomalies marked in red).
  
-<img width="367" alt="11" src="https://github.com/user-attachments/assets/e8844b9f-9b38-4462-ad80-3813b32572e8" />
 <img width="360" alt="11" src="https://github.com/user-attachments/assets/58072a54-7c01-46ee-8f74-b639f3e67ef9">
 
 # PCA in my book
