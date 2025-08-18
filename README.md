@@ -32,9 +32,11 @@ Buy at Amazon: https://a.co/d/2JY2rdj
 
 # Other matrix-factorization methods
 
+They are SVD, ICA, FA. 
+
 Overview: https://scikit-learn.org/stable/modules/decomposition.html
 
-# PCA & ICA
+# ICA
 
 ICA is a technique used to separate mixed signals into their independent components by maximizing their statistical independence. It is widely used in signal processing, image analysis, and biomedical data analysis.  
 
@@ -45,14 +47,15 @@ ICA is a technique used to separate mixed signals into their independent compone
 ![1](https://github.com/user-attachments/assets/a0262fc4-8741-428c-92c9-149f27686670)
 
 
-Another matrix decomposition (Linear Algebraic methods) is SVD or singular value decomposition:
-https://www.ams.org/publicoutreach/feature-column/fcarc-svd
+# SVD 
+
+SVD (singular value decomposition): https://www.ams.org/publicoutreach/feature-column/fcarc-svd
 
 An excellent blog on SVD: https://gregorygundersen.com/blog/2018/12/10/svd/
 
 ----
 
-# PCA & FA
+# FA
 
 Factor analysis (FA) is used when we're interested in identifying underlying behavior and causes and in modelling relationships between observed and hidden (latent) variables. The latent constructs (with expectations) inferred from data are called factors. 
 
