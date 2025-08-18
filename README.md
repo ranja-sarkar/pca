@@ -53,7 +53,6 @@ SVD (singular value decomposition): https://www.ams.org/publicoutreach/feature-c
 
 An excellent blog on SVD: https://gregorygundersen.com/blog/2018/12/10/svd/
 
-----
 
 # FA
 
