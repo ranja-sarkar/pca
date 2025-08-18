@@ -54,9 +54,12 @@ An excellent blog on SVD: https://gregorygundersen.com/blog/2018/12/10/svd/
 
 # PCA & FA
 
-Factor analysis (FA) is used when we're interested in identifying underlying behavior and causes and in modelling relationshops between observed and hidden (latent) variables. The latent constructs (with expectations) inferred from data are called factors. 
+Factor analysis (FA) is used when we're interested in identifying underlying behavior and causes and in modelling relationships between observed and hidden (latent) variables. The latent constructs (with expectations) inferred from data are called factors. 
 
 
 ![2](https://github.com/user-attachments/assets/2776560d-8767-4c6d-8960-4460dc2485a5)
+
+PCA works directly with observed variables, FA assumes that they are influenced by few hidden factors and typically employs techniques like MLE.
+While PCs are often complicated to interpret, factors can be aligned with behavioral or theoretical ideas. 
 
 
