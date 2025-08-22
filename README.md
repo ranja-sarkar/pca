@@ -17,12 +17,12 @@ Considering time-series data and assuming 1% outliers in the dataset, here's the
 
 # PCA in my book
 
-Considering the first two (extracted) principal components (PCs) namely, 0 and 1, the percentage of variance explained (PVE) for the dataset by them is as shown here:
+Considering the first two principal components (PCs) namely, 0 and 1, the percentage of variance explained (PVE) for the dataset by them is as shown.
 
 <img width="377" alt="22" src="https://github.com/user-attachments/assets/3e1495ee-f06c-4b67-9afe-d7a8144231c8" />
 
 
-Learn more about PCA from **Chapter 3** of **my book**: 
+Learn more about PCA and LDA from **Chapter 3** of **my book**.
 
 <img width="173" alt="mm" src="https://github.com/user-attachments/assets/a41c6d0d-de7b-4767-a4a0-488593c606f6">
 
