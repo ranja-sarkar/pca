@@ -33,6 +33,8 @@ Buy at Amazon: https://a.co/d/2JY2rdj
 
 Linear Discriminant Analysis is a supervised method to reduce dimensionality that projects the data onto a subspace in a way that maximizes the separability between classes/groups.
 
+![lda](https://github.com/user-attachments/assets/e9764d7d-5098-40b8-84e8-125166d6b3a4)
+
 
 # Other matrix-factorization methods
 
