@@ -29,6 +29,10 @@ Learn more about PCA from **Chapter 3** of **my book**:
 Buy at Amazon: https://a.co/d/2JY2rdj
 
 
+# LDA
+
+Linear Discriminant Analysis is a supervised method to reduce dimensionality that projects the data onto a subspace in a way that maximizes the separability between classes/groups.
+
 
 # Other matrix-factorization methods
 
