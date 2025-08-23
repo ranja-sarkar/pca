@@ -38,6 +38,8 @@ Linear Discriminant Analysis is a supervised method to reduce dimensionality tha
 LDA works well for data with multiple classes. However, it makes assumptions of normal distribution and equal class covariances.
 Please refer to the python file as an example.
 
+For more: https://sebastianraschka.com/Articles/2014_python_lda.html
+
 
 # Other matrix-factorization methods
 
