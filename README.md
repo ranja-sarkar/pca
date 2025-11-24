@@ -59,7 +59,7 @@ ICA is a technique used to separate mixed signals into their independent compone
 
 # SVD 
 
-SVD (singular value decomposition) can be applied to any rectangular matrix, and is a more fundamental operation from which PCA can be derived. SVD directly works on the data matrix which can be either mean-centered or not.
+SVD (singular value decomposition) can be applied to any rectangular matrix, and is a more fundamental operation from which PCA can be derived. SVD directly works on the data matrix.
 
 SVD: https://www.ams.org/publicoutreach/feature-column/fcarc-svd
 
