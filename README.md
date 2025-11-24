@@ -1,6 +1,5 @@
 # PCA 
-Principal Component Analysis (PCA) is based on the eigen-decomposition of a covariance matrix.
-To understand eigenvector and eigenvalue visually, please refer: https://setosa.io/ev/eigenvectors-and-eigenvalues/
+Principal Component Analysis (PCA) is based on the **decomposition of a covariance matrix**. The decomposition yields eigenvectors and eigenvalues, to understand which visually, please refer: https://setosa.io/ev/eigenvectors-and-eigenvalues/
 
 📌 PCA is the same as finding the principal moments of inertia (in Physics); just that we have a body made of data points instead of a body having a mass.  
 Instead of finding the eigenvalues and eigenvectors of the inertia tensor, we find them by decomposing the covariance matrix.
