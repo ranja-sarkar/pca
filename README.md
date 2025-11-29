@@ -1,20 +1,22 @@
- 
-Principal Component Analysis (PCA) is based on the **decomposition of a covariance matrix**. The matrix decomposition yields [eigenvectors and eigenvalues](https://setosa.io/ev/eigenvectors-and-eigenvalues/).
+
+Linear algebra is essential for data analysis and machine learning. **Chapter 3** of my book ["A handook of mathematical models with python"](https://ranja-sarkar.github.io/) is about the linear-algebraic method, principal component analysis (PCA). 
+
+# PCA
+
+PCA works by decomposition of a covariance matrix. The matrix decomposition yields [eigenvectors and eigenvalues](https://setosa.io/ev/eigenvectors-and-eigenvalues/).
 
 📌 PCA is the same as finding the principal moments of inertia (in Physics); just that we have a body made of data points instead of a body having a mass.  
 Instead of finding the eigenvalues and eigenvectors of the inertia tensor, we find them by decomposing the covariance matrix.
 
 📌 PCA is unsupervised. It detects the directions in which data varies the most.  
 
-# Detecting anomaly by PCA
+📌 **Detecting anomaly by PCA**
 
  **PCA** uses a cluster method to detect an anomaly. Typically in unsupervised learning, a minor percentage of datapoints are assumed as outliers. So PCA assumes the inliers belong to large and dense clusters and the outliers belong to either smaller and sparse clusters or none, in short **PCA determines what constitutes a normal class**. 
 
 Considering time-series data and assuming 1% outliers in the dataset, here's the result of PCA (anomalies marked in red).
  
 <img width="360" alt="11" src="https://github.com/user-attachments/assets/58072a54-7c01-46ee-8f74-b639f3e67ef9">
-
-# PCA 
 
 Considering the first two principal components (PCs) namely, 0 and 1, the percentage of variance explained (PVE) for the dataset by them is as shown.
 
@@ -30,7 +32,6 @@ LDA works well for data with multiple classes. However, it makes assumptions of 
 
 For more: https://sebastianraschka.com/Articles/2014_python_lda.html
 
-**Chapter 3** of my book ["A handoonof mathematical models with python"](https://ranja-sarkar.github.io/) is dedicated to PCA alngwith its comparison to LDA.
 
 # Other matrix-factorization methods
 
@@ -49,7 +50,7 @@ Independent component analysis (ICA) is a technique used to separate mixed signa
 
 📌**SVD** 
 
-SVD (singular value decomposition) can be applied to any rectangular matrix, and is a more fundamental operation from which PCA can be derived. SVD directly works on the data matrix.
+SVD (singular value decomposition) can be applied to any rectangular matrix, and is a more fundamental operation from which PCA can be derived. SVD directly works on the data matrix, unlike PCA.
 
 SVD: https://www.ams.org/publicoutreach/feature-column/fcarc-svd
 
