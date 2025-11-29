@@ -1,3 +1,3 @@
-theme: jekyll-theme-slate
+theme: jekyll-theme-minima
 title: Graphs & Networks
-description: Biomolecular systems such as proteins are networks, pretty much like a network of flight routes, your social network, or like knowledge graphs.
+description: Linear Algebraic Methods: Matrix Factorization
