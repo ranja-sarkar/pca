@@ -20,25 +20,17 @@ Considering the first two principal components (PCs) namely, 0 and 1, the percen
 
 <img width="377" alt="22" src="https://github.com/user-attachments/assets/3e1495ee-f06c-4b67-9afe-d7a8144231c8" />
 
-
-Learn more about PCA and LDA from **Chapter 3** of **my book**.
-
-<img width="173" alt="mm" src="https://github.com/user-attachments/assets/a41c6d0d-de7b-4767-a4a0-488593c606f6">
-
-Buy at Amazon: https://a.co/d/2JY2rdj
-
-
 # LDA
 
-Linear Discriminant Analysis is a supervised method to reduce dimensionality that projects the data onto a subspace in a way that maximizes the separability between classes/groups.
+Linear Discriminant Analysis (LDA) is a supervised method to reduce dimensionality that projects the data onto a subspace in a way that maximizes the separability between classes/groups.
 
 ![lda](https://github.com/user-attachments/assets/e9764d7d-5098-40b8-84e8-125166d6b3a4)
 
 LDA works well for data with multiple classes. However, it makes assumptions of normal distribution and equal class covariances.
-Please refer to the python file as an example.
 
 For more: https://sebastianraschka.com/Articles/2014_python_lda.html
 
+**Chapter 3** of my book ["A handoonof mathematical models with python"](https://ranja-sarkar.github.io/) is dedicated to PCA alngwith its comparison to LDA.
 
 # Other matrix-factorization methods
 
@@ -46,9 +38,9 @@ Overview: https://scikit-learn.org/stable/modules/decomposition.html
 
 📌**ICA**
 
-ICA is a technique used to separate mixed signals into their independent components by maximizing their statistical independence. It is widely used in signal processing, image analysis, and biomedical data analysis.  
+Independent component analysis (ICA) is a technique used to separate mixed signals into their independent components by maximizing their statistical independence. It is widely used in signal processing, image analysis, and biomedical data analysis.  
 
-1. In PCA, principal components are orthogonal, in ICA independent components are not orthogonal. 
+1. In PCA, principal components are orthogonal; independent components are not orthogonal in ICA. 
 
 2. PCA assumes data follows a Gaussian distribution, identifying orthogonal components, whereas ICA assumes a non-Gaussian distribution and does not constrain components to be orthogonal.
 
