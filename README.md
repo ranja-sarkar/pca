@@ -1,5 +1,5 @@
 
-Linear algebra is essential for data analysis and machine learning. **Chapter 3** of my book ["A handook of mathematical models with python"](https://ranja-sarkar.github.io/) is about the linear-algebraic method, principal component analysis (PCA). 
+Understanding methods of linear algebra is essential for data analysis and machine learning. **Chapter 3** of my book ["A handook of mathematical models with python"](https://ranja-sarkar.github.io/) is about the linear-algebraic method, principal component analysis (PCA). 
 
 # PCA
 
