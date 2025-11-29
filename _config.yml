@@ -1,3 +1,3 @@
-theme: jekyll-theme-minima
+theme: jekyll-theme-slate
 title: PCA & LDA
-description: Linear Algebraic methods for data analysis
+description: Linear-algebraic methods for data analysis
