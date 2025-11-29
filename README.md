@@ -1,4 +1,4 @@
-# PCA 
+ 
 Principal Component Analysis (PCA) is based on the **decomposition of a covariance matrix**. The decomposition yields eigenvectors and eigenvalues, to understand which visually, please refer: https://setosa.io/ev/eigenvectors-and-eigenvalues/
 
 📌 PCA is the same as finding the principal moments of inertia (in Physics); just that we have a body made of data points instead of a body having a mass.  
@@ -14,7 +14,7 @@ Considering time-series data and assuming 1% outliers in the dataset, here's the
  
 <img width="360" alt="11" src="https://github.com/user-attachments/assets/58072a54-7c01-46ee-8f74-b639f3e67ef9">
 
-# PCA in my book
+# PCA 
 
 Considering the first two principal components (PCs) namely, 0 and 1, the percentage of variance explained (PVE) for the dataset by them is as shown.
 
@@ -42,22 +42,20 @@ For more: https://sebastianraschka.com/Articles/2014_python_lda.html
 
 # Other matrix-factorization methods
 
-They are SVD, ICA, FA. 
-
 Overview: https://scikit-learn.org/stable/modules/decomposition.html
 
-# ICA
+📌**ICA**
 
 ICA is a technique used to separate mixed signals into their independent components by maximizing their statistical independence. It is widely used in signal processing, image analysis, and biomedical data analysis.  
 
-📌 In PCA, principal components are orthogonal, in ICA independent components are not orthogonal. 
+1. In PCA, principal components are orthogonal, in ICA independent components are not orthogonal. 
 
-📌 PCA assumes data follows a Gaussian distribution, identifying orthogonal components, whereas ICA assumes a non-Gaussian distribution and does not constrain components to be orthogonal.
+2. PCA assumes data follows a Gaussian distribution, identifying orthogonal components, whereas ICA assumes a non-Gaussian distribution and does not constrain components to be orthogonal.
 
 ![1](https://github.com/user-attachments/assets/a0262fc4-8741-428c-92c9-149f27686670)
 
 
-# SVD 
+📌**SVD** 
 
 SVD (singular value decomposition) can be applied to any rectangular matrix, and is a more fundamental operation from which PCA can be derived. SVD directly works on the data matrix.
 
@@ -66,7 +64,7 @@ SVD: https://www.ams.org/publicoutreach/feature-column/fcarc-svd
 An excellent blog on SVD: https://gregorygundersen.com/blog/2018/12/10/svd/
 
 
-# FA
+📌**FA**
 
 Factor analysis (FA) is used when we're interested in identifying underlying behavior and causes and in modelling relationships between observed and hidden (latent) variables. The latent constructs (with expectations) inferred from data are called factors. 
 
