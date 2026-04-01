@@ -1,7 +1,7 @@
 
 I have discussed the usefulness of PCA with regards to [proteins](https://ranja-sarkar.github.io/networks-graphs/). There are **other linear algebraic methods** useful in matrix-factorization problems which entail decomposition of signals into components. Understanding these methods from linear algebra becomes essential for data analysis and machine learning. They provide convenient ways to break a matrix, which perhaps contains some data we are interested in, into simpler and meaningful pieces of information.
 
-**Chapter 3** of my book ["A handook of mathematical models with python"](https://ranja-sarkar.github.io/) is about the linear-algebraic method, principal component analysis ([PCA](https://gist.github.com/ranja-sarkar/3349477dcd8f2f46b4abc5b5c6a09496). 
+**Chapter 3** of my book ["A handook of mathematical models with python"](https://ranja-sarkar.github.io/) is about the linear-algebraic method, principal component analysis ([PCA](https://gist.github.com/ranja-sarkar/3349477dcd8f2f46b4abc5b5c6a09496)). 
 
 # PCA
 
@@ -59,6 +59,6 @@ Factor analysis (FA) is used when we're interested in identifying underlying beh
 
 [PCA and FA](https://www.theanalysisfactor.com/the-fundamental-difference-between-principal-component-analysis-and-factor-analysis/) are similar in what they do, yet different in how they do it. PCA works directly with observed variables, FA assumes that they are influenced by few hidden factors and typically employs techniques like MLE.
 
-While PCs are often complicated to interpret, factors can be aligned with behavioral or theoretical ideas. 
+While PCs are often complicated to interpret, factors can be aligned with behavioral or theoretical ideas mostly conceptualized under econometric conditions. 
 
 
