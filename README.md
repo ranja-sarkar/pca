@@ -16,7 +16,7 @@ Considering time-series data and assuming 1% outliers in the dataset, here's the
  
 <img width="360" alt="11" src="https://github.com/user-attachments/assets/58072a54-7c01-46ee-8f74-b639f3e67ef9">
 
-Considering the first two principal components (PCs) namely, 0 and 1, the percentage of variance explained (PVE) for the dataset by them is as shown.
+Considering the first two principal components (PCs) namely, 0 and 1, the percentage of variance explained (PVE) for the dataset is as shown.
 
 <img width="377" alt="22" src="https://github.com/user-attachments/assets/3e1495ee-f06c-4b67-9afe-d7a8144231c8" />
 
