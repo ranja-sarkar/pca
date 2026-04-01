@@ -30,8 +30,6 @@ Linear Discriminant Analysis (LDA) is a supervised method. It reduces data dimen
 
 # Other matrix-factorization methods
 
-Overview: https://scikit-learn.org/stable/modules/decomposition.html
-
 📌**ICA**
 
 Independent component analysis (ICA) is a technique used to separate mixed signals into their independent components by maximizing their statistical independence. It is widely used in signal processing, image analysis, and biomedical data analysis.  
@@ -45,9 +43,11 @@ Independent component analysis (ICA) is a technique used to separate mixed signa
 
 📌**SVD** 
 
-SVD (singular value decomposition) can be applied to any rectangular matrix, and is a more fundamental operation from which PCA can be derived. [SVD](https://gregorygundersen.com/blog/2018/12/10/svd/) directly works on the data matrix, unlike PCA.
+SVD ([singular value decomposition](https://www.ams.org/publicoutreach/feature-column/fcarc-svd)) can be applied to any rectangular or square matrix, and is a more fundamental operation from which PCA can be derived. [SVD](https://gregorygundersen.com/blog/2018/12/10/svd/) directly works on the data matrix, unlike PCA.
 
-SVD: https://www.ams.org/publicoutreach/feature-column/fcarc-svd
+<img width="146" height="128" alt="11" src="https://github.com/user-attachments/assets/a312421b-bdb3-4a20-9e8b-dec6aff50efa" />
+
+<img width="148" height="70" alt="22" src="https://github.com/user-attachments/assets/aa1945a8-28da-427a-813a-13c9bb65c549" />
 
 
 📌**FA**
