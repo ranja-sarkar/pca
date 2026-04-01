@@ -5,8 +5,7 @@ Understanding methods of linear algebra is essential for data analysis and machi
 
 PCA works by decomposition of a covariance matrix. The matrix decomposition yields [eigenvectors and eigenvalues](https://setosa.io/ev/eigenvectors-and-eigenvalues/).
 
-📌 PCA is the same as finding the principal moments of inertia (in Physics), just that we have a body made of data points instead of a body having a mass.  
-Instead of finding the eigenvalues and eigenvectors of the inertia tensor, we find them by decomposing the covariance matrix.
+📌 PCA is the same as finding the principal moments of inertia (in Physics), just that we have a body made of data points instead of a body having a mass.  Instead of finding the eigenvalues and eigenvectors of the inertia tensor, we find them by decomposing the covariance matrix.
 
 📌 PCA is unsupervised. It detects the directions in which data varies the most.  
 
