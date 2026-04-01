@@ -25,7 +25,9 @@ Considering the first two principal components (PCs) namely, 0 and 1, the percen
 
 Linear Discriminant Analysis (LDA) is a supervised method. It reduces data dimensionality by projecting the data onto a subspace in a way that maximizes the separability between classes/groups.
 
-![lda](https://github.com/user-attachments/assets/e9764d7d-5098-40b8-84e8-125166d6b3a4)
+<img width="149" height="132" alt="44" src="https://github.com/user-attachments/assets/7099de7e-e978-476d-8ac1-4f6b7ffe8ba0" />
+<img width="176" height="125" alt="44" src="https://github.com/user-attachments/assets/97dc0f8f-b7d6-4db3-9be6-c8c9cd1f3f62" />
+
 
 [LDA](https://sebastianraschka.com/Articles/2014_python_lda.html) works well for data with multiple classes. However, it makes assumptions of normal distribution and equal class covariances.
 
