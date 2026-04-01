@@ -45,11 +45,9 @@ Independent component analysis (ICA) is a technique used to separate mixed signa
 
 📌**SVD** 
 
-SVD (singular value decomposition) can be applied to any rectangular matrix, and is a more fundamental operation from which PCA can be derived. SVD directly works on the data matrix, unlike PCA.
+SVD (singular value decomposition) can be applied to any rectangular matrix, and is a more fundamental operation from which PCA can be derived. [SVD](https://gregorygundersen.com/blog/2018/12/10/svd/) directly works on the data matrix, unlike PCA.
 
 SVD: https://www.ams.org/publicoutreach/feature-column/fcarc-svd
-
-An excellent blog on SVD: https://gregorygundersen.com/blog/2018/12/10/svd/
 
 
 📌**FA**
