@@ -11,7 +11,7 @@ PCA reduces data dimensionality by projecting the data onto a subspace in a way 
 
 📌 **Detecting anomaly by PCA**: It uses a cluster method to detect an anomaly. Typically in unsupervised learning, a minor percentage of datapoints are assumed as outliers. So PCA assumes the inliers belong to large and dense clusters and the outliers belong to either smaller and sparse clusters or none, in short **PCA determines what constitutes a normal class**. 
 
-Considering time-series data and assuming 1% outliers in the dataset, here's the result of PCA (anomalies marked in red).
+Considering time-series data and assuming 1% outliers in the dataset, here's the [result](https://github.com/ranja-sarkar/pca/blob/12b74a92ab3cf2c930290761b8e81ff9a7bbcf56/.github/workflows/code/pca.py) of PCA (anomalies marked in red).
  
 <img width="360" alt="11" src="https://github.com/user-attachments/assets/58072a54-7c01-46ee-8f74-b639f3e67ef9">
 
