@@ -1,5 +1,5 @@
 
-I have discussed the usefulness of PCA with regards to [proteins](https://ranja-sarkar.github.io/networks-graphs/). There are other linear algebraic methods useful in matrix factorization problems which entail decomposition of signals into components. Understanding these methods from linear algebra becomes essential for data analysis and machine learning. They provide convenient ways to break a matrix, which perhaps contains some data we are interested in, into simpler and meaningful pieces of information.
+I have discussed the usefulness of PCA with regards to [proteins](https://ranja-sarkar.github.io/networks-graphs/). There are **other linear algebraic methods** useful in matrix-factorization problems which entail decomposition of signals into components. Understanding these methods from linear algebra becomes essential for data analysis and machine learning. They provide convenient ways to break a matrix, which perhaps contains some data we are interested in, into simpler and meaningful pieces of information.
 
 **Chapter 3** of my book ["A handook of mathematical models with python"](https://ranja-sarkar.github.io/) is about the linear-algebraic method, principal component analysis ([PCA](https://gist.github.com/ranja-sarkar/3349477dcd8f2f46b4abc5b5c6a09496). 
 
@@ -30,9 +30,7 @@ Linear Discriminant Analysis (LDA) is a supervised method. It reduces data dimen
 [LDA](https://sebastianraschka.com/Articles/2014_python_lda.html) works well for data with multiple classes. However, it makes assumptions of normal distribution and equal class covariances.
 
 
-# Other matrix-factorization methods
-
-📌**ICA**
+# ICA
 
 Independent component analysis (ICA) is a technique used to separate mixed signals into their independent components by maximizing their statistical independence. It is widely used in signal processing, image analysis, and biomedical data analysis.  
 
@@ -43,7 +41,7 @@ Independent component analysis (ICA) is a technique used to separate mixed signa
 ![1](https://github.com/user-attachments/assets/a0262fc4-8741-428c-92c9-149f27686670)
 
 
-📌**SVD** 
+# SVD 
 
 SVD ([singular value decomposition](https://www.ams.org/publicoutreach/feature-column/fcarc-svd)) can be applied to any rectangular or square matrix, and is a more fundamental operation from which PCA can be derived. [SVD](https://gregorygundersen.com/blog/2018/12/10/svd/) directly works on the data matrix, unlike PCA. SVD is used to determine the rank of a matrix. 
 
@@ -53,7 +51,7 @@ SVD ([singular value decomposition](https://www.ams.org/publicoutreach/feature-c
 
 SVD is used to compress high-dimensional images by preserving only significant singular values. If some of the singular values are zero, the corresponding terms do not appear in the decomposition (linear transformation) of singular martix the rank of which is the dimension of the image. The dimension of the image is therefore equal to the number of non-zero singular values.
 
-📌**FA**
+# FA
 
 Factor analysis (FA) is used when we're interested in identifying underlying behavior and causes and in modelling relationships between observed and hidden (latent) variables. The latent constructs (with expectations) inferred from data are called factors. 
 
