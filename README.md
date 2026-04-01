@@ -1,5 +1,7 @@
 
-Understanding methods of linear algebra is essential for data analysis and machine learning. **Chapter 3** of my book ["A handook of mathematical models with python"](https://ranja-sarkar.github.io/) is about the linear-algebraic method, principal component analysis (PCA). 
+I have discussed the usefulness of PCA with regards to [proteins](https://ranja-sarkar.github.io/networks-graphs/). There are other linear algebraic methods useful in matrix factorization problems which entail decomposition of signals into components. Understanding these methods from linear algebra becomes essential for data analysis and machine learning. They provide convenient ways to break a matrix, which perhaps contains some data we are interested in, into simpler and meaningful pieces of information.
+
+**Chapter 3** of my book ["A handook of mathematical models with python"](https://ranja-sarkar.github.io/) is about the linear-algebraic method, principal component analysis (PCA). 
 
 # PCA
 
