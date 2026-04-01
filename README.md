@@ -34,7 +34,7 @@ Linear Discriminant Analysis (LDA) is a supervised method. It reduces data dimen
 
 Independent component analysis (ICA) is a technique used to separate mixed signals into their independent components by maximizing their statistical independence. It is widely used in signal processing, image analysis, and biomedical data analysis.  
 
-1. In PCA, principal components are orthogonal; independent components are not orthogonal in ICA. 
+1. Principal components are orthogonal in PCA; independent components are not orthogonal in ICA. 
 
 2. PCA assumes data follows a Gaussian distribution, identifying orthogonal components, whereas ICA assumes a non-Gaussian distribution and does not constrain components to be orthogonal.
 
