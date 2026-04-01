@@ -5,14 +5,12 @@ Understanding methods of linear algebra is essential for data analysis and machi
 
 PCA works by decomposition of a covariance matrix. The matrix decomposition yields [eigenvectors and eigenvalues](https://setosa.io/ev/eigenvectors-and-eigenvalues/).
 
-📌 PCA is the same as finding the principal moments of inertia (in Physics); just that we have a body made of data points instead of a body having a mass.  
+📌 PCA is the same as finding the principal moments of inertia (in Physics), just that we have a body made of data points instead of a body having a mass.  
 Instead of finding the eigenvalues and eigenvectors of the inertia tensor, we find them by decomposing the covariance matrix.
 
 📌 PCA is unsupervised. It detects the directions in which data varies the most.  
 
-📌 **Detecting anomaly by PCA**
-
- **PCA** uses a cluster method to detect an anomaly. Typically in unsupervised learning, a minor percentage of datapoints are assumed as outliers. So PCA assumes the inliers belong to large and dense clusters and the outliers belong to either smaller and sparse clusters or none, in short **PCA determines what constitutes a normal class**. 
+📌 **Detecting anomaly by PCA**: It uses a cluster method to detect an anomaly. Typically in unsupervised learning, a minor percentage of datapoints are assumed as outliers. So PCA assumes the inliers belong to large and dense clusters and the outliers belong to either smaller and sparse clusters or none, in short **PCA determines what constitutes a normal class**. 
 
 Considering time-series data and assuming 1% outliers in the dataset, here's the result of PCA (anomalies marked in red).
  
