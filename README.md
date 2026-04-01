@@ -43,12 +43,13 @@ Independent component analysis (ICA) is a technique used to separate mixed signa
 
 📌**SVD** 
 
-SVD ([singular value decomposition](https://www.ams.org/publicoutreach/feature-column/fcarc-svd)) can be applied to any rectangular or square matrix, and is a more fundamental operation from which PCA can be derived. [SVD](https://gregorygundersen.com/blog/2018/12/10/svd/) directly works on the data matrix, unlike PCA.
+SVD ([singular value decomposition](https://www.ams.org/publicoutreach/feature-column/fcarc-svd)) can be applied to any rectangular or square matrix, and is a more fundamental operation from which PCA can be derived. [SVD](https://gregorygundersen.com/blog/2018/12/10/svd/) directly works on the data matrix, unlike PCA. SVD is used to determine rank of a matrix, compress high-dimensional images by preserving only significant singular values. 
 
 <img width="146" height="128" alt="11" src="https://github.com/user-attachments/assets/a312421b-bdb3-4a20-9e8b-dec6aff50efa" />
 
 <img width="148" height="70" alt="22" src="https://github.com/user-attachments/assets/aa1945a8-28da-427a-813a-13c9bb65c549" />
 
+If some of the singular values are zero, the corresponding terms do not appear in the decomposition of singular martix the rank of which is the dimension of the image of the linear transformation. The dimension of the image is equal to the number of non-zero singular values.
 
 📌**FA**
 
