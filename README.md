@@ -58,7 +58,7 @@ Factor analysis (FA) is used when we're interested in identifying underlying beh
 
 <img width="532" height="198" alt="pca" src="https://github.com/user-attachments/assets/b43f8191-a290-4d2c-8356-88a26bcb8817" />
 
-[PCA and FA](https://www.theanalysisfactor.com/the-fundamental-difference-between-principal-component-analysis-and-factor-analysis/) are similar in what they do, yet different in how they do it. PCA works directly with observed variables, FA assumes that they are influenced by few hidden factors and typically employs techniques like MLE.
+[PCA and FA](https://www.theanalysisfactor.com/the-fundamental-difference-between-principal-component-analysis-and-factor-analysis/) are similar in what they do, yet different in how they do it. PCA works directly with observed variables, FA assumes that they are influenced by few hidden factors and typically employs techniques like max. likelihood estimation (MLE).
 
 While PCs are often complicated to interpret, factors can be aligned with behavioral or theoretical ideas mostly conceptualized under econometric conditions. 
 
